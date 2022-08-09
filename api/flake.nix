@@ -28,6 +28,7 @@
       devShell = pkgs.mkShell {
         packages = [
           python
+          pkgs.postgresql # needed by psycopg2
         ]
         ++ tools_to_interact_with_k8s
         ;
