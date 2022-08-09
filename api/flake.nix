@@ -20,10 +20,17 @@
       python = mach-nix.lib.${system}.mkPython {
         python = "python310";
       };
+      tools_to_interact_with_k8s = with pkgs; [
+        google-cloud-sdk
+        kubectl
+        kubectx
+      ];
       devShell = pkgs.mkShell {
         packages = [
           python
-        ];
+        ]
+        ++ tools_to_interact_with_k8s
+        ;
       };
     in
     ({
