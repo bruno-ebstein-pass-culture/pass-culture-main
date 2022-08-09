@@ -17,10 +17,14 @@
       system = "x86_64-darwin";
       pkgs = nixpkgs.legacyPackages.${system};
       debug = pkgs.lib.debug; # `debug.traceValSeqN 1`
+      devShell = mach-nix.lib.${system}.mkPythonShell {
+        python = "python310";
+      };
     in
     ({
-      devShells.${system}.default = mach-nix.lib.${system}.mkPythonShell {
-        python = "python310";
+      devShells.${system} = {
+        default = devShell; # needed by `nix develop`
+        devShell.${system} = devShell; # needed by `use flake` in `.envrc`
       };
     })
   ;
