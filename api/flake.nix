@@ -17,8 +17,13 @@
       system = "x86_64-darwin";
       pkgs = nixpkgs.legacyPackages.${system};
       debug = pkgs.lib.debug; # `debug.traceValSeqN 1`
-      devShell = mach-nix.lib.${system}.mkPythonShell {
+      python = mach-nix.lib.${system}.mkPython {
         python = "python310";
+      };
+      devShell = pkgs.mkShell {
+        packages = [
+          python
+        ];
       };
     in
     ({
