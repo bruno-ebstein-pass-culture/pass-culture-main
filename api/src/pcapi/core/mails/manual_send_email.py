@@ -73,7 +73,8 @@ print(
 
 send_smtp_email = sib_api_v3_sdk.SendSmtpEmail(
     # template_id=82, # testing
-    template_id=665,  # prod
+    template_id=838,  # prod
+    # template_id=665,  # prod
     to=[
         # {"email": "hugo.voisin@passculture.app", "name": "Hugo"},
         # {"email": "hpvoisin2@gmail.com", "name": "Bruno"},
