@@ -74,3 +74,40 @@ def get_booking_event_reminder_to_beneficiary_email_data(
             "VENUE_POSTAL_CODE": individual_booking.booking.stock.offer.venue.postalCode,
         },
     )
+
+    print(
+        """
+<div itemscope itemtype="http://schema.org/EventReservation">
+    <meta itemprop="url" content="{{ PARAMS.BOOKING_LINK }}"/>
+    <div itemprop="underName" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="{{ PARAMS.USER_FIRST_NAME }}"/>
+    </div>
+    <meta itemprop="reservationNumber" content="{{ PARAMS.OFFER_TOKEN }}"/> <!-- this is not a standard of schema.org but need by https://www.google.com/webmasters/markup-tester/ -->
+    <div itemprop="reservedTicket" itemscope itemtype="https://schema.org/Ticket">
+        <meta itemprop="ticketNumber" content="{{ PARAMS.OFFER_TOKEN }}"/>
+        <meta itemprop="ticketToken" content="{{ PARAMS.QR_CODE }}"/>
+    </div>
+    <meta itemprop="reservationStatus" content="http://schema.org/ReservationConfirmed"/>
+    <div itemprop="reservationFor" itemscope itemtype="http://schema.org/Event">
+        <meta itemprop="name" content="{{ PARAMS.OFFER_NAME }}"/>
+        <meta itemprop="startDate" content="{{ PARAMS.EVENT_DATETIME_ISO }}"/>
+        <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+            <meta itemprop="name" content="{{ PARAMS.VENUE_NAME }}"/>
+            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <meta itemprop="streetAddress" content="{{ PARAMS.VENUE_ADDRESS }}"/>
+                <meta itemprop="addressLocality" content="{{ PARAMS.VENUE_CITY }}"/>
+                <meta itemprop="postalCode" content="{{ PARAMS.VENUE_POSTAL_CODE }}"/>
+                <meta itemprop="addressRegion" content="France"/>
+                <meta itemprop="addressCountry" content="France"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% autoescape off %}
+{{ params.my_html }}
+{% endautoescape %}
+        """
+    )
+
+    return new_var
