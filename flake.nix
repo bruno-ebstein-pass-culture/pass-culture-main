@@ -1,6 +1,5 @@
 {
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-  inputs.nixpkgs-old.url = "github:nixos/nixpkgs/nixpkgs-21.11-darwin";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   inputs.git-gamble.url = "gitlab:pinage404/git-gamble";
@@ -10,7 +9,6 @@
   outputs =
     { self
     , nixpkgs
-    , nixpkgs-old
     , flake-utils
     , git-gamble
     }:
@@ -18,13 +16,12 @@
       devShell =
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          pkgs-old = nixpkgs-old.legacyPackages.${system};
         in
         pkgs.mkShell {
           packages = with pkgs; [
             nix # ensure to have always the same version
             docker-compose # needed to run backend with `pc`
-            pkgs-old.commitizen # needed by pre-commit hook
+            commitizen # needed by pre-commit hook
             jq # needed by some subscripts in `pc`
             git-gamble.packages.${system}.git-gamble # tools that blend TCR + TDD to make sure to develop the right thing, babystep by babystep
           ];
