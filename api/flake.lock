@@ -41,11 +41,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1659091740,
-        "narHash": "sha256-aNtnezQfUX1QS/bFno2H5661qIY/Rn7BmHnspuuyI+4=",
+        "lastModified": 1689108475,
+        "narHash": "sha256-Tg8mLKfgIigFSA6IodqSaxjfYVZ0xELqUDtGJhsdN6g=",
         "owner": "DavHau",
         "repo": "mach-nix",
-        "rev": "f15ea8677df951cb4fe608945fd98725dcd033b3",
+        "rev": "725aab8d52eb2f5b8ff67bea61049011ef31597c",
         "type": "github"
       },
       "original": {
@@ -75,11 +75,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1660017629,
-        "narHash": "sha256-Koz6/k7c6hx4qVz/bboxdR2QsBdkxjRWpNmsOWJtXZE=",
+        "lastModified": 1691003216,
+        "narHash": "sha256-Qq/MPkhS12Bl0X060pPvX3v9ac3f2rRQfHjjozPh/Qs=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "9f15d6c3a74d2778c6e1af67947c95f100dc6fd2",
+        "rev": "4a56ce9727a0c5478a836a0d8a8f641c5b9a3d5f",
         "type": "github"
       },
       "original": {
@@ -143,11 +143,11 @@
         "pypiIndex": "pypiIndex"
       },
       "locked": {
-        "lastModified": 1660034523,
-        "narHash": "sha256-+kd7/+77fhe+6KrlLSaXIUdHYGiutSn6TuTLkJjtjV4=",
+        "lastModified": 1691060798,
+        "narHash": "sha256-dqWWm9FAZnNpVwLNh1lNJkACqzqtrJGDkY8TPLN7oU8=",
         "owner": "DavHau",
         "repo": "pypi-deps-db",
-        "rev": "fada47f634f574cb19ffd850f398542d54a97cae",
+        "rev": "ced6859aaf2a2caf45128d1e626da488907168e0",
         "type": "github"
       },
       "original": {
@@ -175,16 +175,16 @@
     "pypiIndex": {
       "flake": false,
       "locked": {
-        "lastModified": 1660022364,
-        "narHash": "sha256-+kYkFKeXrtf9xZfpVR5I4TRSDW7vySbHlGtCZjYwL+Q=",
+        "lastModified": 1691041150,
+        "narHash": "sha256-/l5KWYAuWUYxtUmKRdWYwkTzzBK3HI/rrPyecgi/q3k=",
         "owner": "davhau",
-        "repo": "nix-pypi-fetcher",
-        "rev": "47c5040b6ec0e16f0d0f4255c42165f54b111ad8",
+        "repo": "nix-pypi-fetcher-2",
+        "rev": "baf8665e185e0d92a51bed891f7906fde3c6a372",
         "type": "github"
       },
       "original": {
         "owner": "davhau",
-        "repo": "nix-pypi-fetcher",
+        "repo": "nix-pypi-fetcher-2",
         "type": "github"
       }
     },
