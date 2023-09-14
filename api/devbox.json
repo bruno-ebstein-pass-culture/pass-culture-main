@@ -1,5 +1,17 @@
 {
-  "packages": [],
+  "packages": [
+    "python310@latest",
+    "python310Packages.pip@latest",
+    "python310Packages.libxml2@latest",
+    "libxml2@latest",
+    "python310Packages.grpcio@latest",
+    "python310Packages.google-cloud-bigquery@3.4.2",
+    "python310Packages.lxml@latest",
+    "postgresql@latest",
+    "google-cloud-sdk@latest",
+    "kubectl@latest",
+    "kubectx@latest"
+  ],
   "shell": {
     "init_hook": null
   },
