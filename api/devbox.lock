@@ -1,6 +1,26 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "commitizen@latest": {
+      "last_modified": "2023-11-02T13:29:18Z",
+      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#commitizen",
+      "source": "devbox-search",
+      "version": "3.12.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/j6mnlbla3z7v57dd6xvbhqqzasvc0xfk-commitizen-3.12.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/q1lal2zmr97035n2g23w6w39sjabyjav-commitizen-3.12.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/smlryhxnhlzyysx67ypg7ikmfigl4bha-commitizen-3.12.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/xcv4m07iky55bmvwsiz4b30kpnh2npn3-commitizen-3.12.0"
+        }
+      }
+    },
     "google-cloud-sdk@latest": {
       "last_modified": "2023-10-25T20:49:13Z",
       "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#google-cloud-sdk",
@@ -21,9 +41,50 @@
       "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#libxml2",
       "version": "2.11.5"
     },
+    "pango@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#pango",
+      "source": "devbox-search",
+      "version": "1.50.14",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/vlh71j2h38s0nszzq773lcl4l204acgf-pango-1.50.14-bin"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/0p8vaf80av372nixkslzmz07fdgpp29r-pango-1.50.14-bin"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/nk1vndyw0pq2llazd7a1gmak3y9h9mcc-pango-1.50.14-bin"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/rhnlc2mg16429dbav9h9js285l4gd84z-pango-1.50.14-bin"
+        }
+      }
+    },
+    "poetry@latest": {
+      "last_modified": "2023-10-25T20:49:13Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#poetry",
+      "source": "devbox-search",
+      "version": "1.6.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/wbmb98gib37yi5ckzink0svw71qa9hva-python3.11-poetry-1.6.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/j4dks9q9i20yra6hcgfz2zsxidk75l3h-python3.11-poetry-1.6.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/xcr6invhkw0nk8awj092ahvfdh55li39-python3.11-poetry-1.6.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/6qdiirzpwxkf9v1dd0dppdn5fvh6srhg-python3.11-poetry-1.6.1"
+        }
+      }
+    },
     "postgresql@latest": {
       "last_modified": "2023-11-02T13:29:18Z",
-      "plugin_version": "0.0.1",
+      "plugin_version": "0.0.2",
       "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#postgresql",
       "version": "15.4"
     },
@@ -47,17 +108,6 @@
       "last_modified": "2023-11-02T13:29:18Z",
       "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#python310Packages.libxml2",
       "version": "2.11.5"
-    },
-    "python310Packages.lxml@latest": {
-      "last_modified": "2023-10-25T20:49:13Z",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#python310Packages.lxml",
-      "version": "4.9.3-3"
-    },
-    "python310Packages.pip@latest": {
-      "last_modified": "2023-10-25T20:49:13Z",
-      "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#python310Packages.pip",
-      "version": "23.2.1"
     }
   }
 }
