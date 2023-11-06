@@ -2,61 +2,61 @@
   "lockfile_version": "1",
   "packages": {
     "google-cloud-sdk@latest": {
-      "last_modified": "2023-09-10T10:53:27Z",
-      "resolved": "github:NixOS/nixpkgs/78058d810644f5ed276804ce7ea9e82d92bee293#google-cloud-sdk",
-      "version": "433.0.1"
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#google-cloud-sdk",
+      "version": "446.0.1"
     },
     "kubectl@latest": {
-      "last_modified": "2023-09-10T10:53:27Z",
-      "resolved": "github:NixOS/nixpkgs/78058d810644f5ed276804ce7ea9e82d92bee293#kubectl",
-      "version": "1.28.1"
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#kubectl",
+      "version": "1.28.3"
     },
     "kubectx@latest": {
-      "last_modified": "2023-09-10T10:53:27Z",
-      "resolved": "github:NixOS/nixpkgs/78058d810644f5ed276804ce7ea9e82d92bee293#kubectx",
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#kubectx",
       "version": "0.9.4"
     },
     "libxml2@latest": {
-      "last_modified": "2023-09-10T10:53:27Z",
-      "resolved": "github:NixOS/nixpkgs/78058d810644f5ed276804ce7ea9e82d92bee293#libxml2",
-      "version": "2.11.4"
+      "last_modified": "2023-11-02T13:29:18Z",
+      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#libxml2",
+      "version": "2.11.5"
     },
     "postgresql@latest": {
-      "last_modified": "2023-09-10T10:53:27Z",
+      "last_modified": "2023-11-02T13:29:18Z",
       "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/78058d810644f5ed276804ce7ea9e82d92bee293#postgresql",
-      "version": "14.9"
+      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#postgresql",
+      "version": "15.4"
     },
     "python310@latest": {
-      "last_modified": "2023-02-24T18:08:35Z",
+      "last_modified": "2023-10-25T20:49:13Z",
       "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/806075be2bdde71895359ed18cb530c4d323e6f6#python3",
-      "version": "3.10.9"
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#python310",
+      "version": "3.10.13"
     },
     "python310Packages.google-cloud-bigquery@3.4.2": {
-      "last_modified": "2023-02-04T23:32:17Z",
-      "resolved": "github:NixOS/nixpkgs/19ad2a2b84a99b8025ace91ba7b80d12d8ae71db#python310Packages.google-cloud-bigquery",
+      "last_modified": "2023-01-31T17:05:53Z",
+      "resolved": "github:NixOS/nixpkgs/50e4dbf35b95fd2b96718b656ebcbc6f9fa3a4ab#python310Packages.google-cloud-bigquery",
       "version": "3.4.2"
     },
     "python310Packages.grpcio@latest": {
-      "last_modified": "2023-09-10T10:53:27Z",
-      "resolved": "github:NixOS/nixpkgs/78058d810644f5ed276804ce7ea9e82d92bee293#python310Packages.grpcio",
+      "last_modified": "2023-10-29T04:21:19Z",
+      "resolved": "github:NixOS/nixpkgs/90e85bc7c1a6fc0760a94ace129d3a1c61c3d035#python310Packages.grpcio",
       "version": "1.57.0"
     },
     "python310Packages.libxml2@latest": {
-      "last_modified": "2023-09-10T10:53:27Z",
-      "resolved": "github:NixOS/nixpkgs/78058d810644f5ed276804ce7ea9e82d92bee293#python310Packages.libxml2",
-      "version": "2.11.4"
+      "last_modified": "2023-11-02T13:29:18Z",
+      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#python310Packages.libxml2",
+      "version": "2.11.5"
     },
     "python310Packages.lxml@latest": {
-      "last_modified": "2023-09-17T10:54:49Z",
-      "resolved": "github:NixOS/nixpkgs/5148520bfab61f99fd25fb9ff7bfbb50dad3c9db#python310Packages.lxml",
+      "last_modified": "2023-10-25T20:49:13Z",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#python310Packages.lxml",
       "version": "4.9.3-3"
     },
     "python310Packages.pip@latest": {
-      "last_modified": "2023-09-10T10:53:27Z",
+      "last_modified": "2023-10-25T20:49:13Z",
       "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/78058d810644f5ed276804ce7ea9e82d92bee293#python310Packages.pip",
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#python310Packages.pip",
       "version": "23.2.1"
     }
   }
