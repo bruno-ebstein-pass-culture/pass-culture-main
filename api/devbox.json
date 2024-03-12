@@ -11,6 +11,7 @@
     "pango@latest",
     "google-cloud-sdk@latest",
     "kubectl@latest",
-    "kubectx@latest"
+    "kubectx@latest",
+    "k9s@latest"
   ]
 }
