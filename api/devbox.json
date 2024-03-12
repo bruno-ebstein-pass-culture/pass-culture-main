@@ -1,12 +1,11 @@
 {
   "packages": [
     "commitizen@latest",
-    "python310@latest",
+    "python311@latest",
     "poetry@latest",
-    "python310Packages.libxml2@latest",
+    "python311Packages.libxml2@latest",
     "libxml2@latest",
-    "python310Packages.grpcio@latest",
-    "python310Packages.google-cloud-bigquery@3.4.2",
+    "python311Packages.grpcio@latest",
     "postgresql@latest",
     "pango@latest",
     "google-cloud-sdk@latest",
