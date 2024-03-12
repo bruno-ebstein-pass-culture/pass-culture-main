@@ -2,112 +2,247 @@
   "lockfile_version": "1",
   "packages": {
     "commitizen@latest": {
-      "last_modified": "2023-11-02T13:29:18Z",
-      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#commitizen",
+      "last_modified": "2024-02-29T01:10:36Z",
+      "resolved": "github:NixOS/nixpkgs/ec25c90d35d24e36c0af3b3d58a09542367ebbee#commitizen",
       "source": "devbox-search",
-      "version": "3.12.0",
+      "version": "3.16.0",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/j6mnlbla3z7v57dd6xvbhqqzasvc0xfk-commitizen-3.12.0"
+          "store_path": "/nix/store/jd5cn2kj8fzbsjr6bwjw2la4g4n4pzj7-commitizen-3.16.0"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/q1lal2zmr97035n2g23w6w39sjabyjav-commitizen-3.12.0"
+          "store_path": "/nix/store/x9fh83gqbw3284npalvi6mdvh9mbypga-commitizen-3.16.0"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/smlryhxnhlzyysx67ypg7ikmfigl4bha-commitizen-3.12.0"
+          "store_path": "/nix/store/w2bm5r8l3aq4b6b0fbqzgf0yxksbrcny-commitizen-3.16.0"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/xcv4m07iky55bmvwsiz4b30kpnh2npn3-commitizen-3.12.0"
+          "store_path": "/nix/store/qal4csjaasnwsx3hy0wg39cvvxi58b0x-commitizen-3.16.0"
         }
       }
     },
     "google-cloud-sdk@latest": {
-      "last_modified": "2023-10-25T20:49:13Z",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#google-cloud-sdk",
-      "version": "446.0.1"
-    },
-    "kubectl@latest": {
-      "last_modified": "2023-10-25T20:49:13Z",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#kubectl",
-      "version": "1.28.3"
-    },
-    "kubectx@latest": {
-      "last_modified": "2023-10-25T20:49:13Z",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#kubectx",
-      "version": "0.9.4"
-    },
-    "libxml2@latest": {
-      "last_modified": "2023-11-02T13:29:18Z",
-      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#libxml2",
-      "version": "2.11.5"
-    },
-    "pango@latest": {
-      "last_modified": "2023-10-25T20:49:13Z",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#pango",
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#google-cloud-sdk",
       "source": "devbox-search",
-      "version": "1.50.14",
+      "version": "452.0.1",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/vlh71j2h38s0nszzq773lcl4l204acgf-pango-1.50.14-bin"
+          "store_path": "/nix/store/c2phimwrlwg4ixbnr6mgrh7215g43n1w-google-cloud-sdk-452.0.1"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/0p8vaf80av372nixkslzmz07fdgpp29r-pango-1.50.14-bin"
+          "store_path": "/nix/store/9s4s0fn61fs5znkh0ap49flaw72zz4b7-google-cloud-sdk-452.0.1"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/nk1vndyw0pq2llazd7a1gmak3y9h9mcc-pango-1.50.14-bin"
+          "store_path": "/nix/store/wyxpdrmv97kbrg5ff4vf86l5ass4wvcn-google-cloud-sdk-452.0.1"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/rhnlc2mg16429dbav9h9js285l4gd84z-pango-1.50.14-bin"
+          "store_path": "/nix/store/slijm96rzazirrcj76v0c2i9q5ssjb6f-google-cloud-sdk-452.0.1"
+        }
+      }
+    },
+    "kubectl@latest": {
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#kubectl",
+      "source": "devbox-search",
+      "version": "1.29.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/ybqhvn4lf84h73krglxb4kjzacbadzmf-kubectl-1.29.2"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/6755ladirg5n76n7j8q1fmy1z896623l-kubectl-1.29.2"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/njzmn0shqfz70hqdil9l12xf6x2vzlmz-kubectl-1.29.2"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/l0pzdwk3fmqp7q4z0skblklnmdrykqp3-kubectl-1.29.2"
+        }
+      }
+    },
+    "kubectx@latest": {
+      "last_modified": "2024-02-24T23:06:34Z",
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#kubectx",
+      "source": "devbox-search",
+      "version": "0.9.5",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/m2jmwq6pr86diswlp5mhgky4m5g8j4fx-kubectx-0.9.5"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/h0h20rwsxs01nnyllbsijzfdbma28syc-kubectx-0.9.5"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/0c7wv7zi4rnsix5ialw8xfl3nrkxkr36-kubectx-0.9.5"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/yzq9wrqqyn5bhjqpc7n88yr765bf5cai-kubectx-0.9.5"
+        }
+      }
+    },
+    "libxml2@latest": {
+      "last_modified": "2024-03-07T02:56:54Z",
+      "resolved": "github:NixOS/nixpkgs/f945939fd679284d736112d3d5410eb867f3b31c#libxml2",
+      "source": "devbox-search",
+      "version": "2.12.5",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/485y3apw0gm2ir35pnqrm7hwfp97vd5k-libxml2-2.12.5-bin"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/ks3lfnwvbi0zni19747khlzb717xdn7w-libxml2-2.12.5-bin"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/02wb4h4inl2yvzqhl6dm15gw4xwhcrq4-libxml2-2.12.5-bin"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/dzdjxba3f5v7sqmgrli15k9hbhjdw1kx-libxml2-2.12.5-bin"
+        }
+      }
+    },
+    "pango@latest": {
+      "last_modified": "2024-03-07T02:56:54Z",
+      "resolved": "github:NixOS/nixpkgs/f945939fd679284d736112d3d5410eb867f3b31c#pango",
+      "source": "devbox-search",
+      "version": "1.51.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/1i5nxkzbnpz0fcgk9qkj1g63ff04vnhd-pango-1.51.0-bin"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/vcpfn3nbqkkxgnchn0lkpikhh7y15ssy-pango-1.51.0-bin"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/czsv7y0wlf111q84nqyx3nqdx09kxk9x-pango-1.51.0-bin"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/6iy4y2lb6644wilpikqi9vn4xcr80a51-pango-1.51.0-bin"
         }
       }
     },
     "poetry@latest": {
-      "last_modified": "2023-10-25T20:49:13Z",
+      "last_modified": "2024-03-06T17:57:40Z",
       "plugin_version": "0.0.3",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#poetry",
+      "resolved": "github:NixOS/nixpkgs/58ae79ea707579c40102ddf62d84b902a987c58b#poetry",
       "source": "devbox-search",
-      "version": "1.6.1",
+      "version": "1.8.2",
       "systems": {
         "aarch64-darwin": {
-          "store_path": "/nix/store/wbmb98gib37yi5ckzink0svw71qa9hva-python3.11-poetry-1.6.1"
+          "store_path": "/nix/store/ls4khyy3zz86insgp48406kf981p7rgq-python3.11-poetry-1.8.2"
         },
         "aarch64-linux": {
-          "store_path": "/nix/store/j4dks9q9i20yra6hcgfz2zsxidk75l3h-python3.11-poetry-1.6.1"
+          "store_path": "/nix/store/3j3435g649f6pnfm2hi0rfvh1jnzcy2f-python3.11-poetry-1.8.2"
         },
         "x86_64-darwin": {
-          "store_path": "/nix/store/xcr6invhkw0nk8awj092ahvfdh55li39-python3.11-poetry-1.6.1"
+          "store_path": "/nix/store/207arqilqvzhiqdz2agn69ir3lmr9d29-python3.11-poetry-1.8.2"
         },
         "x86_64-linux": {
-          "store_path": "/nix/store/6qdiirzpwxkf9v1dd0dppdn5fvh6srhg-python3.11-poetry-1.6.1"
+          "store_path": "/nix/store/xc4s1vk9sqqmqb2w8vbiffmyhak6npm3-python3.11-poetry-1.8.2"
         }
       }
     },
     "postgresql@latest": {
-      "last_modified": "2023-11-02T13:29:18Z",
+      "last_modified": "2024-02-29T01:10:36Z",
       "plugin_version": "0.0.2",
-      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#postgresql",
-      "version": "15.4"
+      "resolved": "github:NixOS/nixpkgs/ec25c90d35d24e36c0af3b3d58a09542367ebbee#postgresql",
+      "source": "devbox-search",
+      "version": "15.6",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/j5m8ndrxpmk1444lzdk6p33vfzwrg6l7-postgresql-15.6"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/3gbmk22frf8l07k3mhb16d43dy7bfd2s-postgresql-15.6"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/3a6lihh8nk9fvhf87vwkszfknjx27yfb-postgresql-15.6"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/84xh621k32sc7ykqx37vcqdpjz9zxmdf-postgresql-15.6"
+        }
+      }
     },
     "python310@latest": {
-      "last_modified": "2023-10-25T20:49:13Z",
+      "last_modified": "2024-02-24T23:06:34Z",
       "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#python310",
-      "version": "3.10.13"
+      "resolved": "github:NixOS/nixpkgs/9a9dae8f6319600fa9aebde37f340975cab4b8c0#python310",
+      "source": "devbox-search",
+      "version": "3.10.13",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/lxcbwhpylvcngx5k2wky62rdriwynw7m-python3-3.10.13"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/4y6m8w5pc6fcj0jnl49q6zpkjl74iglp-python3-3.10.13"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/hjiq75b46gw3wzznx278indcrppji823-python3-3.10.13"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/9x6kjq8z5dwcg145l7k2r5lvvb24kckp-python3-3.10.13"
+        }
+      }
     },
     "python310Packages.google-cloud-bigquery@3.4.2": {
       "last_modified": "2023-01-31T17:05:53Z",
       "resolved": "github:NixOS/nixpkgs/50e4dbf35b95fd2b96718b656ebcbc6f9fa3a4ab#python310Packages.google-cloud-bigquery",
-      "version": "3.4.2"
+      "source": "devbox-search",
+      "version": "3.4.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/ayhh5qdd0xydxan30d0nvn69qbizrckf-python3.10-google-cloud-bigquery-3.4.2"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/psrh56c03560c2900fgazxh3bx7qhk1y-python3.10-google-cloud-bigquery-3.4.2"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/1idiqwdb829a2l78r4yyci76msw8902h-python3.10-google-cloud-bigquery-3.4.2"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/j4r7sv0ri5ln39w3hqbchsfs8q400icz-python3.10-google-cloud-bigquery-3.4.2"
+        }
+      }
     },
     "python310Packages.grpcio@latest": {
-      "last_modified": "2023-10-29T04:21:19Z",
-      "resolved": "github:NixOS/nixpkgs/90e85bc7c1a6fc0760a94ace129d3a1c61c3d035#python310Packages.grpcio",
-      "version": "1.57.0"
+      "last_modified": "2023-12-31T07:44:09Z",
+      "resolved": "github:NixOS/nixpkgs/d44d59d2b5bd694cd9d996fd8c51d03e3e9ba7f7#python310Packages.grpcio",
+      "source": "devbox-search",
+      "version": "1.59.3",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/bqg9vn0s2rch1l8fx2b9i35phpnp8xkz-python3.10-grpcio-1.59.3"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/3n31lf8kprk9pxrmxjssl2lzx35d3wsx-python3.10-grpcio-1.59.3"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/12wmpf2mk1iaklixbggcrph69zx6y2dj-python3.10-grpcio-1.59.3"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/c2da6w1i850ml8ld1s2lckzk99g2wf92-python3.10-grpcio-1.59.3"
+        }
+      }
     },
     "python310Packages.libxml2@latest": {
-      "last_modified": "2023-11-02T13:29:18Z",
-      "resolved": "github:NixOS/nixpkgs/b644d97bda6dae837d577e28383c10aa51e5e2d2#python310Packages.libxml2",
-      "version": "2.11.5"
+      "last_modified": "2023-12-25T10:13:25Z",
+      "resolved": "github:NixOS/nixpkgs/e1fa12d4f6c6fe19ccb59cac54b5b3f25e160870#python310Packages.libxml2",
+      "source": "devbox-search",
+      "version": "2.11.5",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/qmi4xwil7vkkr24ffkp7axrw637llzr7-libxml2-2.11.5-py"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/rh8mvcynmznhaz6dcg8v9dvgmimsdnqn-libxml2-2.11.5-py"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/z09l2r6nqpfiaqi9amlgll494yjcirf7-libxml2-2.11.5-py"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/m09s814b0crgykswnsvxvnv9ay4qzxgz-libxml2-2.11.5-py"
+        }
+      }
     }
   }
 }
